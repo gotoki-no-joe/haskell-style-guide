@@ -252,7 +252,7 @@ clauses, where possible.  Short cases should usually be put on a single line
 -->
 
 モナドを用いない（すなわち`do`を使わない）コードで、
-ガードもパターンマッチも使えない場合は、
+ガードとパターンマッチが使えない場合は、
 通常の式にするようにif-then-else節を字下げしてよい。
 <!--original
 When writing non-monadic code (i.e. when not using `do`) and guards
@@ -494,13 +494,12 @@ if:
 -->
 
 * （主観的に）利用者が実際にクリックして情報を得たいらしい箇所
+* コメント中で各API名が現れる最初の場所のみ（重複を気にする必要はない）
+
 <!--original
 * The user might actually want to click on it for more information (in
   your judgment), and
--->
 
-* コメント中で各API名が現れる最初の場所のみ（重複を気にする必要はない）
-<!--original
 * Only for the first occurrence of each API name in the comment (don't
   bother repeating a link)
 -->
